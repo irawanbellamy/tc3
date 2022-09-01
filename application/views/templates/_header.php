@@ -43,18 +43,18 @@
 						<div class="container">
 							<nav>
 								<ul>
-									<li><a href="index.html">Tentang Kami</a></li>
-									<li class="dropdown"><a href="#">Paguyuban</a>
+									<li><a href="<?= base_url() ?>">Tentang Kami</a></li>
+									<li class="dropdown"><a href="<?= base_url() ?>paguyuban">Paguyuban</a>
 										<ul class="dropdown-menu">
-											<li><a href="widgets.html">Kepengurusan</a></li>
-											<li><a href="widgets.html">AD ART</a></li>
-											<li><a href="widgets.html">Rencana Kegiatan</a></li>
-											<li><a href="widgets.html">Dokumentasi</a></li>
+											<li><a href="#">Kepengurusan</a></li>
+											<li><a href="#">AD ART</a></li>
+											<li><a href="#">Rencana Kegiatan</a></li>
+											<li><a href="#">Dokumentasi</a></li>
 										</ul>
 									</li>
-									<li><a href="index.html">Gallery</a></li>
-									<li><a href="index.html">Blog</a></li>
-									<li><a href="index.html">Hubungi Kami</a></li>
+									<li><a href="<?= base_url() ?>galeri">Gallery</a></li>
+									<li><a href="<?= base_url() ?>blog">Blog</a></li>
+									<li><a href="<?= base_url() ?>kontak">Hubungi Kami</a></li>
 								</ul>
 							</nav>
 						</div>
