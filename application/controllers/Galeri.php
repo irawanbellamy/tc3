@@ -5,7 +5,8 @@ class Galeri extends CI_Controller
 {
 	public function index()
 	{
-		$this->load->view('templates/_header');
+		$data = array('title' => "Galeri");
+		$this->load->view('templates/_header', $data);
 		$this->load->view('page/galeri');
 		$this->load->view('templates/_footer');
 	}

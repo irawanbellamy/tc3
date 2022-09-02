@@ -9,7 +9,7 @@
 	<link rel="icon" type="image/png" href="images/favicon.png">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<!-- Document title -->
-	<title>Home</title>
+	<title><?= $title ?></title>
 	<!-- Stylesheets & Fonts -->
 	<link href="<?= base_url() ?>assets/css/plugins.css" rel="stylesheet">
 	<link href="<?= base_url() ?>assets/css/style.css" rel="stylesheet">

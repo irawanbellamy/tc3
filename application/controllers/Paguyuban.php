@@ -12,28 +12,32 @@ class Paguyuban extends CI_Controller
 
 	public function pengurus()
 	{
-		$this->load->view('templates/_header');
+		$data = array('title' => "Susunan Pengurus");
+		$this->load->view('templates/_header', $data);
 		$this->load->view('page/pengurus');
 		$this->load->view('templates/_footer');
 	}
 
 	public function adart()
 	{
-		$this->load->view('templates/_header');
+		$data = array('title' => "AD ART");
+		$this->load->view('templates/_header', $data);
 		$this->load->view('page/adart');
 		$this->load->view('templates/_footer');
 	}
 
 	public function kegiatan()
 	{
-		$this->load->view('templates/_header');
+		$data = array('title' => "Kegiatan Warga");
+		$this->load->view('templates/_header', $data);
 		$this->load->view('page/kegiatan');
 		$this->load->view('templates/_footer');
 	}
 
 	public function dokumentasi()
 	{
-		$this->load->view('templates/_header');
+		$data = array('title' => "Dokumentasi");
+		$this->load->view('templates/_header', $data);
 		$this->load->view('page/dokumentasi');
 		$this->load->view('templates/_footer');
 	}

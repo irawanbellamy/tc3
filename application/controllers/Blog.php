@@ -5,7 +5,8 @@ class Blog extends CI_Controller
 {
 	public function index()
 	{
-		$this->load->view('templates/_header');
+		$data = array('title' => "Blog");
+		$this->load->view('templates/_header', $data);
 		$this->load->view('page/blog');
 		$this->load->view('templates/_footer');
 	}
