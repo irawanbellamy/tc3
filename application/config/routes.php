@@ -50,7 +50,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |		my-controller/my-method	-> my_controller/my_method
 */
 $route['default_controller'] = 'home';
-$route['/paguyuban'] = 'paguyuban';
+// $route['/paguyuban'] = 'paguyuban';
+$route['/paguyuban/pengurus'] = 'paguyuban/pengurus';
+$route['/paguyuban/adart'] = 'paguyuban/adart';
+$route['/paguyuban/kegiatan'] = 'paguyuban/kegiatan';
+$route['/paguyuban/dokumentasi'] = 'paguyuban/dokumentasi';
 $route['/galeri'] = 'galeri';
 $route['/blog'] = 'blog';
 $route['/kontak'] = 'kontak';
