@@ -2,73 +2,76 @@
 <footer id="footer">
 	<div class="footer-content">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-4">
-					<div class="icon-box effect small clean">
-						<div class="icon">
-							<a href="#"><i class="icon-clock"></i></a>
-						</div>
-						<h3>Working Days</h3>
-						<p><strong>Monday - Friday</strong>
-							<br>10:00 AM - 11:00 PM
-						</p>
-						<p><strong>Saturday - Sunday</strong>
-							<br>10:00 AM - 04:00 PM
-						</p>
-					</div>
+			<div class="row gap-y">
+				<div class="col-md-6 col-xl-4">
+					<p>
+						<a href="#"><img src="<?= base_url() ?>assets/images/logos/Tenjo-city.jpg" alt="logo" width="150"></a>
+					</p>
+					<address>
+						<strong>Tenjo City Residence Tahap 3</strong>
+						<br> Jl. Raya Cileles, Singabangsa,
+						<br> Kec. Tenjo, Kabupaten Bogor,
+						<br> Jawa Barat 16370 <br>
+					</address>
 				</div>
-				<div class="col-md-4">
-					<div class="icon-box effect small clean">
-						<div class="icon">
-							<a href="#"><i class="fas fa-map-marker-alt"></i></a>
-						</div>
-						<h3>Caffe Location</h3>
-						<p><strong>Caffe Address:</strong>
-							<br> 795 Folsom Ave, Suite 600
-							<br> San Francisco, CA 94107
-							<br>
-							<br>
-						</p>
+				<div class="col-6 col-md-6 col-xl-2">
+					<!-- Footer widget area 1 -->
+					<div class="widget">
+						<h4>Project</h4>
+						<ul class="list">
+							<li><a href="#">Project A</a></li>
+							<li><a href="#">Project B</a></li>
+							<li><a href="#">Project C</a></li>
+							<li><a href="#">Project D</a></li>
+							<li><a href="#">Project E</a></li>
+						</ul>
 					</div>
+					<!-- end: Footer widget area 1 -->
 				</div>
-				<div class="col-md-4">
-					<div class="icon-box effect small clean">
-						<div class="icon">
-							<a href="#"><i class="icon-phone"></i></a>
-						</div>
-						<h3>Caffe Contact</h3>
-						<p><strong>Phone:</strong>
-							<br> (123) 456-7890
-							<br> (987) 654-3210
-							<br>
-						</p>
+				<div class="col-6 col-md-6 col-xl-2">
+					<!-- Footer widget area 2 -->
+					<div class="widget">
+						<h4>Navigasi</h4>
+						<ul class="list">
+							<li><a href="#">Tentang Kami</a></li>
+							<li><a href="#">Pengurus</a></li>
+							<li><a href="#">AD ART</a></li>
+							<li><a href="#">Kegiatan</a></li>
+							<li><a href="#">Dokumentasi</a></li>
+						</ul>
 					</div>
+					<!-- end: Footer widget area 2 -->
+				</div>
+				<div class="col-6 col-md-6 col-xl-2">
+					<div class="widget">
+						<h4>Navigasi</h4>
+						<ul class="list">
+							<li><a href="#">Galeri</a></li>
+							<li><a href="#">Blog</a></li>
+							<li><a href="#">Kontak</a></li>
+						</ul>
+					</div>
+
+				</div>
+				<div class="col-6 col-md-6 col-xl-2">
+					<p><a class="btn btn-primary btn-block" href="#">Hubungi Kami</a></p>
+					<br>
+					<!-- Social icons -->
+					<h5>FOLLOW US</h5>
+					<div class="social-icons social-icons-colored social-icons-rounded float-left">
+						<ul>
+							<li class="social-instagram"><a href="#"><i class="fab fa-instagram"></i></a></li>
+							<li class="social-youtube"><a href="#"><i class="fab fa-youtube"></i></a></li>
+						</ul>
+					</div>
+					<!-- end: Social icons -->
 				</div>
 			</div>
 		</div>
 	</div>
 	<div class="copyright-content">
 		<div class="container">
-			<div class="row">
-				<div class="col-lg-6">
-					<!-- Social icons -->
-					<div class="social-icons social-icons-colored float-left">
-						<ul>
-							<li class="social-rss"><a href="#"><i class="fa fa-rss"></i></a></li>
-							<li class="social-facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-							<li class="social-twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
-							<li class="social-vimeo"><a href="#"><i class="fab fa-vimeo"></i></a></li>
-							<li class="social-youtube"><a href="#"><i class="fab fa-youtube"></i></a></li>
-							<li class="social-pinterest"><a href="#"><i class="fab fa-pinterest"></i></a></li>
-							<li class="social-gplus"><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-						</ul>
-					</div>
-					<!-- end: Social icons -->
-				</div>
-				<div class="col-lg-6">
-					<div class="copyright-text text-center">&copy; <?= date('Y') ?> All Rights Reserved.<a href="<?= base_url() ?>" target="_blank" rel="noopener"> Paguyuban Tenjo City 3</a> </div>
-				</div>
-			</div>
+			<div class="copyright-text text-center">&copy; 2021 <?= date('Y') ?>. All Rights Reserved.<a href="#" target="_blank" rel="noopener">Paguyuban TC3</a> </div>
 		</div>
 	</div>
 </footer>
@@ -78,10 +81,10 @@
 <!-- Scroll top -->
 <a id="scrollTop"><i class="icon-chevron-up"></i><i class="icon-chevron-up"></i></a>
 <!--Plugins-->
-<script src="<?= base_url() ?>assets/js/jquery.js"></script>
-<script src="<?= base_url() ?>assets/js/plugins.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/plugins.js"></script>
 <!--Template functions-->
-<script src="<?= base_url() ?>assets/js/functions.js"></script>
+<script src="js/functions.js"></script>
 </body>
 
 </html>
